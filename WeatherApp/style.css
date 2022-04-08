@@ -1,0 +1,53 @@
+
+* body {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(300deg, #CED1D6,#CED1D6);
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    text-align: center;
+}
+
+input{
+    background-color: #fff;
+    border:none;
+    border-radius:25px;
+    box-shadow: 0 4px rgba(0, 0 , 0 , 0.2);
+    font-family: inherit;
+    padding: 1rem;
+    min-width: 300px;
+}
+
+
+
+
+input:focus {
+    outline:none;
+}
+
+.weather {
+    margin-bottom: 0;
+    
+}
+
+.weather h2 img {
+    padding-top: -0.5;
+}
+
+.weather h2 {
+    align-items: center;
+    display:flex;
+    margin-bottom: 0;
+}
+
+
+
+
+
