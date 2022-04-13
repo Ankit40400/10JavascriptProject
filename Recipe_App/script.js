@@ -186,7 +186,7 @@ searchBtn.addEventListener("click", async() => {
     const search = searchTerm.value;
     const meals = await getmealsBySearch(search)
     console.log(meals)
-    if (meal) {
+    if (meals) {
         meals.forEach((meal) => {
             addMeal(meal)
         })
